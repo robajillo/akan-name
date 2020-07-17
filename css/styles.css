@@ -1,7 +1,14 @@
 #form {
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
   border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+  background-color: burlywood;
+  padding: 15px;
 }
+#submit
+width: 50%;
+padding: 15px 15px;
+margin: 10px 0;
+color: white;
+cursor: pointer;
+border-radius: 5px;

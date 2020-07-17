@@ -5,10 +5,14 @@
   background-color: burlywood;
   padding: 15px;
 }
-#submit
+#submit {
 width: 50%;
 padding: 15px 15px;
 margin: 10px 0;
 color: white;
 cursor: pointer;
 border-radius: 5px;
+}
+body {
+  background-image: url(image/ghana.jpg);
+}

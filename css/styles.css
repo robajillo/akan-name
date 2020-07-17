@@ -1,18 +1,16 @@
-#form {
-  margin-left: 15%;
-  margin-right: 15%;
-  border-radius: 5px;
+.container {
   background-color: burlywood;
-  padding: 15px;
 }
-#submit {
-width: 50%;
-padding: 15px 15px;
-margin: 10px 0;
-color: white;
-cursor: pointer;
-border-radius: 5px;
-}
+
+
+
+
 body {
-  background-image: url(image/ghana.jpg);
+  background-image: url(https://github.com/robajillo/akan-name/blob/master/image/ghana.jpg);
+}
+.result {
+  color: blue;
+}
+h4 {
+  color: blue;
 }

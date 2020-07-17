@@ -10,12 +10,24 @@
 
   <link href="css/styles.css" rel="stylesheet" type="text/css">
 
+  <script src="js/script.js"></script>
+
+
   </head>
 
   <body>
+<style>
+  div {
 
-  <p>  Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
+    background-image:(/home/roba/Documents/moringa-school-projects/akan-name/image/ghana.jpg);
+  }
+</style>
+<div class="container">
+  <div class="jumbotron">
 
+  <p>  Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
+
+<p>
 Male
 Sunday: Kwasi
 
@@ -30,7 +42,9 @@ Thursday:  Yaw
 Friday: Kofi
 
 Saturday: Kwame
+</p>
 
+<p>
 Female
 Sunday: Akosua
 
@@ -45,25 +59,75 @@ Thursday:  Yaa
 Friday: Afua
 
 Saturday: Ama</p>
+</div>
 
-    <form id="form" method="POST">
+<div class="jumbotron">
 
-      <fieldset>
+  <div class="row">
 
-        <legend>Fill in your details</legend>
-        Date:<input type="number" id="date">
-        Month:<input type="number" id="month>
-        Year:<input type="number" id="year">
-        <select id="gender">
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-          </select>
+    <div class="col-md-6">
 
-      </fieldset>
+      <form onsubmit="result()" method="post" class="akan">
+
+  <div class="form-group">
+
+    <label for="Date"><h4>Date</h4></label>
+
+    <input type="text"  class="form"id="day" min="1" max="31">
+
+    </div>
+
+    <div class="form">
+
+      <label for="month"><h4>Month</h4></label>
+
+      <input type="number" class="form" id="month" min="1" max="12">
+
+      </div>
+
+      <div class="form">
+
+        <label for="Year"><h4>Year</h4></label>
+
+        <input type="year" class="form" id="year">
+
+        </div>
+
+
+<label><h4>Choose Your Gender</h4></label> <br>
+
+ <input type="radio" id="male" name="gender" value="male">
+
+ <label for="male">Male</label><br>
+
+ <input type="radio" id="female" name="gender" value="female">
+
+ <label for="female">Female</label><br>
+
+ <div>
 
 <button type="submit" onclick=result() onsubmit="changeText" >Submit </button><br>
 
+</div>
 
+</form>
+
+<div class="row output">
+
+    <p id="result"></p>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+<script src="js/script.js"></script>
 
   </body>
 

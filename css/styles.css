@@ -1,13 +1,29 @@
 .container {
-  background-color: burlywood;
+
+
 }
 
-
+.card-title {
+text-align: center;
+ background-color: #cccccc;
+}
 
 
 body {
-  background-image: url(https://github.com/robajillo/akan-name/blob/master/image/ghana.jpg);
+  background: url(https://www.pexels.com/photo/photo-of-people-dancing-wearing-traditional-wear-3337612.jpg);
+
+
+   
 }
+
+.card-title {
+  text-align: center;
+}
+
+h2 {
+  color: blue;
+}
+
 .result {
   color: blue;
 }

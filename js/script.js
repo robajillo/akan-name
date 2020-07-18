@@ -29,7 +29,7 @@ function result(){
     else if(day<=0||day>31)
         alert("Input correct day!");
 
-    
+
 
 if(male.checked==true){
     alert("You were born on" +daysOfWeek[birthDay]+ "and your akhan name is" + maleNames[birthDay])
@@ -37,4 +37,3 @@ if(male.checked==true){
 else if(female.checked==true){
     alert("You were born on"+ daysOfWeek[birthDay]+ "and your akhan name is" + femaleNames[birthDay])
   }
-}

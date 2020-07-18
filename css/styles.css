@@ -14,3 +14,12 @@ body {
 h4 {
   color: blue;
 }
+
+.copyright {
+  font-size: 20pt;
+  text-align: right;
+  padding-bottom: 20px;
+  color: grey;
+  margin-top: 20px;
+  text-align: right;
+}

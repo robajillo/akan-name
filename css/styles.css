@@ -13,7 +13,7 @@ body {
   background: url(https://www.pexels.com/photo/photo-of-people-dancing-wearing-traditional-wear-3337612.jpg);
 
 
-   
+
 }
 
 .card-title {
@@ -38,4 +38,15 @@ h4 {
   color: grey;
   margin-top: 20px;
   text-align: right;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+      background: url(https://www.pexels.com/photo/photo-of-people-dancing-wearing-traditional-wear-3337612/);
+    }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background: url(https://www.pexels.com/photo/photo-of-people-dancing-wearing-traditional-wear-3337612/);
+  }
 }

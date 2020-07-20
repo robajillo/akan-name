@@ -38,7 +38,7 @@ function result(){
   if(male.checked==true){
       alert("You were born on" +daysOfWeek[birthDay]+ "and your Akan name is" + maleNames[birthDay])
       }
-  else if(female.checked==true){
+  if(female.checked==true){
       alert("You were born on"+ daysOfWeek[birthDay]+ "and your Akan name is" + femaleNames[birthDay])
     }
   }

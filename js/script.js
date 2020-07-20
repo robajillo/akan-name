@@ -20,20 +20,25 @@ function result(){
     var female = document.getElementById("female")
 
 
-    if(year<=1920||year>2020)
-        alert("INput the correct year!");
+    if(year<=1800||year>2020)
+          alert("Input the correct year!");
 
-    else if(month<=0||month>12)
-        alert("Input correct month!");
+      else if(month<=0||month>12)
+          alert("Input correct month!");
 
-    else if(day<=0||day>31)
-        alert("Input correct day!");
+      else if(day<=0||day>31)
+          alert("Input correct day!");
+
+      var date = new Date(year +month +  day);
 
 
+      var birthDay = date.getDay();
 
-if(male.checked==true){
-    alert("You were born on" +daysOfWeek[birthDay]+ "and your akhan name is" + maleNames[birthDay])
+
+  if(male.checked==true){
+      alert("You were born on" +daysOfWeek[birthDay]+ "and your Akan name is" + maleNames[birthDay])
+      }
+  else if(female.checked==true){
+      alert("You were born on"+ daysOfWeek[birthDay]+ "and your Akan name is" + femaleNames[birthDay])
     }
-else if(female.checked==true){
-    alert("You were born on"+ daysOfWeek[birthDay]+ "and your akhan name is" + femaleNames[birthDay])
   }

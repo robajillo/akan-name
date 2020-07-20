@@ -9,11 +9,12 @@ text-align: center;
 }
 
 
-body {
-  background: url(https://www.pexels.com/photo/photo-of-people-dancing-wearing-traditional-wear-3337612.jpg);
 
-
-
+body{
+    background-image:url('image/photo-of-people-dancing-wearing-traditional-wear-3337612.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card-title {

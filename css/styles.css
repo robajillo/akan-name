@@ -30,6 +30,11 @@ h4 {
   color: blue;
 }
 
+.female {
+  height: 152px
+  width: 290px
+}
+
 .copyright {
   font-size: 20pt;
   text-align: right;
@@ -51,6 +56,6 @@ h4 {
     }
 }
 @media screen and (min-width: 768px) {
-  
+
   }
 }

@@ -8,14 +8,12 @@ text-align: center;
  background-color: #cccccc;
 }
 
-
-
-body{
-    background-image:url('image/photo-of-people-dancing-wearing-traditional-wear-3337612.jpg');
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+.page-holder {
+    min-height: 100vh;
+  }
+  .bg-cover {
+    background-size: cover !important;
+  }
 
 .card-title {
   text-align: center;
